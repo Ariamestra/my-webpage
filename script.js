@@ -12,5 +12,3 @@ function renderTemplate(template, data) {
     return template;
 }
 
-const app = document.getElementById('app');
-app.innerHTML = renderTemplate(template, data);
